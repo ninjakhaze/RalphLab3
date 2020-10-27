@@ -26,4 +26,6 @@
         <item>0.3 Sec</item>
         <item>0.35 Sec</item>
     </string-array>
+    <string name="firstnmae">Ralph</string>
+    <string name="lastname">Tongol</string>
 </resources>

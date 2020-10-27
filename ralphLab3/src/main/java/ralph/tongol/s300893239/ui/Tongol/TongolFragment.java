@@ -92,5 +92,4 @@ public class TongolFragment extends Fragment {
         mframeAnimation.stop();
         mframeAnimation.setVisible(false,false);
     }
-
 }

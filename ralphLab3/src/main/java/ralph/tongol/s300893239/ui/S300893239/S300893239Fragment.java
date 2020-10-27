@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -19,17 +22,28 @@ import ralph.tongol.s300893239.R;
 public class S300893239Fragment extends Fragment {
 
     private S300893239ViewModel s300893239ViewModel;
+    private ImageView imgMoon;
+    private Animation animate;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         s300893239ViewModel =
                 new ViewModelProvider(this).get(S300893239ViewModel.class);
         View root = inflater.inflate(R.layout.fragment_s300893239, container, false);
-        final TextView textView = root.findViewById(R.id.text_notifications);
-        s300893239ViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        Button start = root.findViewById(R.id.ralphStartAnimation);
+        start.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
+            public void onClick(View v) {
+                imgMoon = root.findViewById(R.id.moon);
+                animate = AnimationUtils.loadAnimation(getContext(), R.anim.moon_movement);
+                imgMoon.startAnimation(animate);
+            }
+        });
+        Button stop = root.findViewById(R.id.ralphStopAnimation);
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgMoon.clearAnimation();
             }
         });
         return root;
