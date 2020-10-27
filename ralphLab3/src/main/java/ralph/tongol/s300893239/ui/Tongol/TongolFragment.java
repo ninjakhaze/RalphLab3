@@ -34,7 +34,7 @@ public class TongolFragment extends Fragment {
                 new ViewModelProvider(this).get(TongolViewModel.class);
         View root = inflater.inflate(R.layout.fragment_tongol, container, false);
         img = (ImageView) root.findViewById(R.id.ralphImageViewNinja);
-        Button start = root.findViewById(R.id.ralphBtnStart);
+        Button start = root.findViewById(R.id.ralphStartBtn);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,7 +74,6 @@ public class TongolFragment extends Fragment {
         BitmapDrawable frame4 = (BitmapDrawable)getResources().getDrawable(R.drawable.ninja4);
         BitmapDrawable frame5 = (BitmapDrawable)getResources().getDrawable(R.drawable.ninja5);
 
-        // Get the background, which has been compiled to an AnimationDrawable object.
         mframeAnimation = new AnimationDrawable();
         mframeAnimation.setOneShot(false);	// loop continuously
         mframeAnimation.addFrame(frame1, timeDuration);

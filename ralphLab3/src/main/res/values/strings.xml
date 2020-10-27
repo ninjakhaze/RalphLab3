@@ -13,5 +13,14 @@
     <string name="black">Black</string>
     <string name="blue">Blue</string>
     <string name="clr">Clear</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
     <string name="update_pen">Update Pen</string>
+    <string name="Clickme">Click Me</string>
+    <string-array name="animation_speed">
+        <item>0.2 Secc</item>
+        <item>0.25 Sec</item>
+        <item>0.3 Sec</item>
+        <item>0.35 Sec</item>
+    </string-array>
 </resources>

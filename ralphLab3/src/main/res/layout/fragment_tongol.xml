@@ -6,7 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".ui.Tongol.TongolFragment">
 
+    <LinearLayout
+        android:id="@+id/linLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Clickme" />
+
+        <LinearLayout
+        android:id="@+id/ButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <Button
+        android:id="@+id/ralphStartBtn"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start" >
+
+    </Button>
+
+    <Button
+        android:id="@+id/ralphStopBtn"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop" >
+
+    </Button>
+        <Spinner
+            android:id="@+id/ralphAnimationSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/animation_speed" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ralphImageRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ralphImageViewNinja"
+                android:layout_width="409dp"
+                android:layout_height="325dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
     <TextView
         android:id="@+id/text_dashboard"
         android:layout_width="match_parent"
