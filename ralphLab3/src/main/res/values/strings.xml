@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RalphLab3</string>
+    <string name="title_home">1: Ralph</string>
+    <string name="title_dashboard">2: Tongol</string>
+    <string name="title_notifications">3: S300893239</string>
+    <string name="no1">Fragment One</string>
+    <string name="no2">Fragment Two</string>
+    <string name="no3">Fragment Three</string>
+    <string name="small">10 thickness</string>
+    <string name="medium">20 thickness</string>
+    <string name="large">30 thickness</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="clr">Clear</string>
+    <string name="update_pen">Update Pen</string>
+</resources>

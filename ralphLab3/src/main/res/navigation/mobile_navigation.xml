@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="ralph.tongol.s300893239.ui.Ralph.RalphFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_ralph" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="ralph.tongol.s300893239.ui.Tongol.TongolFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_tongol" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="ralph.tongol.s300893239.ui.S300893239.S300893239Fragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_s300893239" />
+</navigation>
