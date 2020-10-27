@@ -1,5 +1,7 @@
 package ralph.tongol.s300893239.ui.Tongol;
-
+/*Name: Ralph Lawrence G Tongol
+        Student No: 300893239
+        Section: 002 */
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -67,7 +69,6 @@ public class TongolFragment extends Fragment {
     }
     private void startAnimation()
     {
-
         BitmapDrawable frame1 = (BitmapDrawable)getResources().getDrawable(R.drawable.ninja1);
         BitmapDrawable frame2 = (BitmapDrawable)getResources().getDrawable(R.drawable.ninja2);
         BitmapDrawable frame3 = (BitmapDrawable)getResources().getDrawable(R.drawable.ninja3);
@@ -83,7 +84,6 @@ public class TongolFragment extends Fragment {
         mframeAnimation.addFrame(frame5, timeDuration);
 
         img.setBackground(mframeAnimation);
-
         mframeAnimation.setVisible(true,true);
         mframeAnimation.start();
     }
@@ -92,4 +92,5 @@ public class TongolFragment extends Fragment {
         mframeAnimation.stop();
         mframeAnimation.setVisible(false,false);
     }
+
 }

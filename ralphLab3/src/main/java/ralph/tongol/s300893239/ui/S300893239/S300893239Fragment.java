@@ -1,5 +1,7 @@
 package ralph.tongol.s300893239.ui.S300893239;
-
+/*Name: Ralph Lawrence G Tongol
+        Student No: 300893239
+        Section: 002 */
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

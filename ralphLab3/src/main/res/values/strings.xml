@@ -1,4 +1,7 @@
 <resources>
+    <!--Name: Ralph Lawrence G Tongol
+    Student No: 300893239
+    Section: 002 -->
     <string name="app_name">RalphLab3</string>
     <string name="title_home">1: Ralph</string>
     <string name="title_dashboard">2: Tongol</string>
@@ -16,7 +19,7 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="update_pen">Update Pen</string>
-    <string name="Clickme">Click Me</string>
+    <string name="Clickme">Permission</string>
     <string-array name="animation_speed">
         <item>0.2 Secc</item>
         <item>0.25 Sec</item>
