@@ -8,38 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"><![CDATA[
-    tools:context=".ui.S300893239.S300893239Fragment">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]]>
-
+    tools:context=".ui.S300893239.S300893239Fragment">]]>
     <ImageView
         android:id="@+id/earth"
         android:layout_width="109dp"
@@ -52,8 +21,8 @@
 
     <ImageView
         android:id="@+id/moon"
-        android:layout_width="64dp"
-        android:layout_height="80dp"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.198"

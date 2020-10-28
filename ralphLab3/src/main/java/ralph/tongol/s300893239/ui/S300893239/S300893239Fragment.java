@@ -22,8 +22,8 @@ import ralph.tongol.s300893239.R;
 public class S300893239Fragment extends Fragment {
 
     private S300893239ViewModel s300893239ViewModel;
-    private ImageView imgMoon;
-    private Animation animate;
+    private ImageView imgMoon, imgEarth;
+    private Animation animateM, animateE;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -35,8 +35,12 @@ public class S300893239Fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 imgMoon = root.findViewById(R.id.moon);
-                animate = AnimationUtils.loadAnimation(getContext(), R.anim.moon_movement);
-                imgMoon.startAnimation(animate);
+                animateM = AnimationUtils.loadAnimation(getContext(), R.anim.moon_movement);
+                imgMoon.startAnimation(animateM);
+
+                imgEarth = root.findViewById(R.id.earth);
+                animateE = AnimationUtils.loadAnimation(getContext(), R.anim.spin);
+                imgEarth.startAnimation(animateE);
             }
         });
         Button stop = root.findViewById(R.id.ralphStopAnimation);
