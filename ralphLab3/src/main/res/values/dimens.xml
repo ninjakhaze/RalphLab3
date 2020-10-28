@@ -5,4 +5,7 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fragment1Text">10pt</dimen>
+    <dimen name="fragment2Text">7pt</dimen>
+    <dimen name="fragment3Text">7pt</dimen>
 </resources>

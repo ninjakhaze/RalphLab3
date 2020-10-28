@@ -9,6 +9,34 @@
     android:layout_height="match_parent"
     android:background="#000000"><![CDATA[
     tools:context=".ui.S300893239.S300893239Fragment">]]>
+
+    <TextView
+        android:id="@+id/ralphFNTilt"
+        style="@style/ralphFragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-45"
+        android:text="@string/ralph"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/ralphLNTilt"
+        style="@style/ralphFragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="45"
+        android:text="@string/tongol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
     <ImageView
         android:id="@+id/earth"
         android:layout_width="109dp"

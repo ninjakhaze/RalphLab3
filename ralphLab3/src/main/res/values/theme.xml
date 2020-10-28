@@ -9,5 +9,31 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="ralphFragment3">
+        <item name="android:textColor">
+            @color/styleFrag3
+        </item>
+        <item name="android:textSize">
+            @dimen/fragment3Text
+        </item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ralphFragment1">
+        <item name="android:textColor">
+            @color/styleFrag1
+        </item>
+        <item name="android:textSize">
+            @dimen/fragment3Text
+        </item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ralphFragment2">
+        <item name="android:textColor">
+            @color/styleFrag2
+        </item>
+        <item name="android:textSize">
+            @dimen/fragment2Text
+        </item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

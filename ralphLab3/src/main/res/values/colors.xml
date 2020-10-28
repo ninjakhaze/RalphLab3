@@ -7,5 +7,14 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="bg1">#65C4F1</color>
-    <color name="bg2">#03DAC5</color>
+    <color name="bg2">#D1F2EB</color>
+    <color name="styleFrag3">#00FF00</color>
+    <color name="styleFrag2">#F39C12</color>
+    <color name="styleFrag1">#7B241C</color>
+    <color name="frag2Bg">#A6ACAF</color>
+    <color name="frag1Bg">#EBEDEF</color>
+    <color name="black">#17202A</color>
+
+
+
 </resources>

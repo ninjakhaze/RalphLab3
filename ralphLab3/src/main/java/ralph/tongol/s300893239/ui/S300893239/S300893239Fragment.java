@@ -48,6 +48,7 @@ public class S300893239Fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 imgMoon.clearAnimation();
+                imgEarth.clearAnimation();
             }
         });
         return root;

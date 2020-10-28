@@ -26,6 +26,9 @@
         <item>0.3 Sec</item>
         <item>0.35 Sec</item>
     </string-array>
+    <string name="ralph">Ralph</string>
+    <string name="tongol">Tongol</string>
     <string name="firstnmae">Ralph</string>
     <string name="lastname">Tongol</string>
+    <string name="create_contact">Create Contact</string>
 </resources>

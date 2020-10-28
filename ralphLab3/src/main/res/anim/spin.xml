@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Name: Ralph Lawrence G Tongol
+    Student No: 300893239
+    Section: 002 -->
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:shareInterpolator="false">
     <rotate

@@ -4,7 +4,8 @@
     Section: 002 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ralph.tongol.s300893239">
-
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

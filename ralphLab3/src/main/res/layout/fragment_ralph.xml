@@ -7,7 +7,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".ui.Ralph.RalphFragment">
+
+
 
     <TextView
         android:id="@+id/ralphFragment1Txtbox"
@@ -15,7 +18,7 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="Ralph Lawrence Tongol - S300893239"
-        android:textStyle="bold"
+        style="@style/ralphFragment1"
         app:layout_constraintBottom_toTopOf="@+id/ralphFragment1Canvas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -104,10 +107,14 @@
     </RadioGroup>
 
     <Button
+
         android:id="@+id/ralphClrBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:shape="ring"
         android:text="@string/clr"
+        android:background="@color/black"
+        android:textColor="@color/styleFrag3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -119,11 +126,14 @@
         android:id="@+id/ralphPenBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:shape="ring"
         android:text="@string/update_pen"
+        android:background="@color/black"
+        android:textColor="@color/styleFrag3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.641" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

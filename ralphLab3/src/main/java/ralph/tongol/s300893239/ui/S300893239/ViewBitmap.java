@@ -1,5 +1,7 @@
 package ralph.tongol.s300893239.ui.S300893239;
-
+/*Name: Ralph Lawrence G Tongol
+        Student No: 300893239
+        Section: 002 */
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -30,11 +32,10 @@ public class ViewBitmap extends View {
         Bitmap firstnameTopLeft = Bitmap.createBitmap(firstnameBitmap, 0, 0, firstnameBitmap.getWidth(), firstnameBitmap.getHeight(), topLeft, false);
         Bitmap lastnameTopRight = Bitmap.createBitmap(lastnameBitmap, 0, 0, lastnameBitmap.getWidth(), lastnameBitmap.getHeight(), topRight, false);
 
-
-        // Free up some memory by dumping bitmaps we don't need anymore
+        // saving memory by means of disregarding bitmaps that not needed
         firstnameBitmap.recycle();
         lastnameBitmap.recycle();
-        //draw the bitmap in the canvas
+        //bitmap has been draw in the canvas
         canvas.drawBitmap(firstnameTopLeft, 30, 30, null);
         canvas.drawBitmap(lastnameTopRight, 1025, 30, null);
     }

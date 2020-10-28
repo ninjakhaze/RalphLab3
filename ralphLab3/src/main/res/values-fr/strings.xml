@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RalphLab3</string>
+    <string name="title_home">1: Ralph</string>
+    <string name="title_dashboard">2: Tongol</string>
+    <string name="title_notifications">3: S300893239</string>
+    <string name="no1">Fragment un</string>
+    <string name="no2">Fragment deux</string>
+    <string name="no3">Fragment trois</string>
+    <string name="small">10 épaisseur</string>
+    <string name="medium">20 épaisseur</string>
+    <string name="large">30 épaisseur</string>
+    <string name="red">rouge</string>
+    <string name="black">Noir</string>
+    <string name="blue">Bleu</string>
+    <string name="clr">Clair</string>
+    <string name="start">" Début"</string>
+    <string name="stop">Arrêtez</string>
+    <string name="update_pen">Mettre à jour le stylo</string>
+    <string name="Clickme">Autorisation</string>
+    <string name="ralph">Ralph</string>
+    <string name="tongol">Tongol</string>
+    <string name="firstnmae">Ralph</string>
+    <string name="lastname">Tongol</string>
+    <string name="create_contact">Créer un contact</string>
+</resources>
